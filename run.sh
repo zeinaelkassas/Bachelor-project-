@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 OMP_NUM_THREADS=1 python -m experiments.train density --version maf --architecture maf --n_gaussians 1 --proxy_outliers other_sections --proxy_outlier_lambda 1.0 --margin 0.5  --augment_preemphasis zeina  --consistent_with_librosa --machine_type fan
